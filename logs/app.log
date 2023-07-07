@@ -1,0 +1,666 @@
+2023-05-17 09:53:22 - ERROR  - [AnyIO worker thread: mongo_db.py  :add_data_to_db():44] - {'status': 'failed', 'error': '("\'Student\' object has no attribute \'dic\'",)'}
+2023-05-17 09:53:22 - ERROR  - [AnyIO worker thread: student_info_handler.py  :add_new_student():24] - {'status': 'failed', 'error': '("\'NoneType\' object has no attribute \'level\'",)'}
+2023-05-17 09:53:22 - ERROR  - [AnyIO worker thread: student_info_services.py  :add_student():43] - {'status': 'failed', 'error': '("\'NoneType\' object has no attribute \'level\'",)'}
+2023-05-17 09:59:31 - ERROR  - [AnyIO worker thread: mongo_db.py  :add_data_to_db():44] - {'status': 'failed', 'error': '("\'Student\' object has no attribute \'dic\'",)'}
+2023-05-17 09:59:31 - ERROR  - [AnyIO worker thread: student_info_handler.py  :add_new_student():24] - {'status': 'failed', 'error': '("\'NoneType\' object has no attribute \'level\'",)'}
+2023-05-17 09:59:31 - ERROR  - [AnyIO worker thread: student_info_services.py  :add_student():43] - {'status': 'failed', 'error': '("\'NoneType\' object has no attribute \'level\'",)'}
+2023-05-18 10:14:23 - ERROR  - [AnyIO worker thread: student_info_services.py  :send_an_email():29] - {'status': 'failed', 'error': '("\'list\' object has no attribute \'description\'",)'}
+2023-05-18 10:16:57 - ERROR  - [AnyIO worker thread: student_info_services.py  :send_an_email():29] - {'status': 'failed', 'error': '("\'list\' object has no attribute \'description\'",)'}
+2023-05-18 10:19:02 - ERROR  - [AnyIO worker thread: student_info_services.py  :send_an_email():29] - {'status': 'failed', 'error': '("\'list\' object has no attribute \'description\'",)'}
+2023-05-18 10:19:24 - ERROR  - [AnyIO worker thread: student_info_services.py  :send_an_email():29] - {'status': 'failed', 'error': '("\'module\' object is not callable",)'}
+2023-05-22 15:40:10 - ERROR  - [AnyIO worker thread: email_handler.py  :send_email():43] - {'status': 'failed', 'error': '("\'str\' object has no attribute \'policy\'",)'}
+2023-05-22 15:40:10 - ERROR  - [AnyIO worker thread: student_info_services.py  :send_an_email():26] - {'status': 'failed', 'error': '("\'NoneType\' object has no attribute \'level\'",)'}
+2023-05-22 16:06:59 - ERROR  - [AnyIO worker thread: student_info_services.py  :send_an_email():28] - {'status': 'failed', 'error': '("\'Json2Html\' object has no attribute \'Table\'",)'}
+2023-05-22 16:08:59 - ERROR  - [AnyIO worker thread: student_info_services.py  :send_an_email():26] - {'status': 'failed', 'error': '("Json2Html.convert() got an unexpected keyword argument \'thead_attributes\'",)'}
+2023-05-22 16:11:29 - ERROR  - [AnyIO worker thread: student_info_services.py  :send_an_email():27] - {'status': 'failed', 'error': '("Json2Html.convert() got an unexpected keyword argument \'thead_attributes\'",)'}
+2023-06-23 10:53:31 - ERROR  - [MainThread: sql_db.py  :__init__():64] - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 10:53:49 - ERROR  - [MainThread: sql_db.py  :__init__():64] - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 10:54:32 - ERROR  - [MainThread: sql_db.py  :__init__():64] - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 10:55:17,610 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 10:55:17,611 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 10:55:17,611 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 10:55:18,301 - ERROR - sql_db.py:64 - __init__ - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 10:55:18,301 - ERROR - sql_db.py:64 - __init__ - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 10:55:19,968 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 10:55:19,969 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 10:55:19,969 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 10:55:20,424 - ERROR - sql_db.py:64 - __init__ - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 10:55:20,424 - ERROR - sql_db.py:64 - __init__ - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 10:56:05,181 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 10:56:05,182 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 10:56:05,182 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 10:56:05,613 - ERROR - sql_db.py:64 - __init__ - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 10:56:05,613 - ERROR - sql_db.py:64 - __init__ - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 10:57:23,552 - INFO - sql_db.py:92 - add_data_to_db - {'status': 'Success', 'Message': 'Added data to db'}
+2023-06-23 10:57:23,552 - INFO - sql_db.py:92 - add_data_to_db - {'status': 'Success', 'Message': 'Added data to db'}
+2023-06-23 10:57:23,552 - INFO - sql_db.py:92 - add_data_to_db - {'status': 'Success', 'Message': 'Added data to db'}
+2023-06-23 10:57:23,552 - INFO - sql_db.py:92 - add_data_to_db - {'status': 'Success', 'Message': 'Added data to db'}
+2023-06-23 10:57:23,552 - INFO - sql_db.py:92 - add_data_to_db - {'status': 'Success', 'Message': 'Added data to db'}
+2023-06-23 10:59:10,700 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 10:59:10,701 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 10:59:10,701 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 10:59:11,316 - ERROR - sql_db.py:64 - __init__ - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 10:59:11,316 - ERROR - sql_db.py:64 - __init__ - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 11:28:46,557 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:28:46,558 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:28:46,559 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:28:47,338 - ERROR - sql_db.py:66 - __init__ - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 11:28:47,338 - ERROR - sql_db.py:66 - __init__ - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 11:28:52,765 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:28:52,766 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:28:52,766 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:28:53,333 - ERROR - sql_db.py:65 - __init__ - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 11:28:53,333 - ERROR - sql_db.py:65 - __init__ - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 11:29:26,141 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:29:26,142 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:29:26,143 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:29:26,702 - ERROR - sql_db.py:66 - __init__ - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 11:29:26,702 - ERROR - sql_db.py:66 - __init__ - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 11:29:36,612 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:29:36,613 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:29:36,615 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:29:37,378 - ERROR - sql_db.py:65 - __init__ - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 11:29:37,378 - ERROR - sql_db.py:65 - __init__ - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 11:30:03,662 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:30:03,663 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:30:03,664 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:30:04,343 - ERROR - sql_db.py:66 - __init__ - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 11:30:04,343 - ERROR - sql_db.py:66 - __init__ - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 11:35:05,288 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:35:05,289 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:35:05,290 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:35:05,887 - ERROR - sql_db.py:67 - __init__ - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 11:35:05,887 - ERROR - sql_db.py:67 - __init__ - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 11:36:45,212 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:36:45,213 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:36:45,214 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:36:45,890 - ERROR - sql_db.py:67 - __init__ - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 11:36:45,890 - ERROR - sql_db.py:67 - __init__ - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 11:37:02,993 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:37:02,994 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:37:02,994 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:37:03,697 - ERROR - sql_db.py:67 - __init__ - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 11:37:03,697 - ERROR - sql_db.py:67 - __init__ - {'status': 'failed', 'error': '("Table \'Rahul_student_table\' is already defined for this MetaData instance.  Specify \'extend_existing=True\' to redefine options and columns on an existing Table object.",)'}
+2023-06-23 11:51:26,324 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:51:26,324 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:51:26,325 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:51:26,742 - ERROR - sql_db.py:28 - __init__ - {'status': 'failed', 'error': '("name \'engine\' is not defined",)'}
+2023-06-23 11:51:26,742 - ERROR - sql_db.py:28 - __init__ - {'status': 'failed', 'error': '("name \'engine\' is not defined",)'}
+2023-06-23 11:51:26,743 - ERROR - sql_db.py:32 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 11:51:26,743 - ERROR - sql_db.py:32 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 11:51:36,764 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:51:36,765 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:51:36,765 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:51:37,182 - ERROR - sql_db.py:28 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 11:51:37,182 - ERROR - sql_db.py:28 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 11:51:37,184 - ERROR - sql_db.py:32 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 11:51:37,184 - ERROR - sql_db.py:32 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 11:51:43,098 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:51:43,098 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:51:43,100 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:51:43,474 - ERROR - sql_db.py:32 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 11:51:43,474 - ERROR - sql_db.py:32 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 11:52:30,947 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:52:30,947 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:52:30,948 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:52:35,917 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:52:35,918 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:52:35,918 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:52:39,809 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:52:39,809 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:52:39,810 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:52:42,472 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:52:42,472 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:52:42,473 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:52:42,906 - ERROR - sql_db.py:33 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 11:52:42,906 - ERROR - sql_db.py:33 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 11:52:50,998 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:52:50,998 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:52:50,999 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:52:55,751 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:52:55,752 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:52:55,752 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:53:00,353 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:53:00,354 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:53:00,354 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:53:00,739 - ERROR - sql_db.py:34 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 11:53:00,739 - ERROR - sql_db.py:34 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 11:56:36,570 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:56:36,571 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:56:36,573 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:56:46,465 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:56:46,466 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:56:46,466 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:56:46,797 - ERROR - sql_db.py:34 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 11:56:46,797 - ERROR - sql_db.py:34 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 11:57:03,438 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:57:03,439 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:57:03,439 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:57:03,597 - ERROR - sql_db.py:34 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 11:57:03,597 - ERROR - sql_db.py:34 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 11:57:36,729 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:57:36,729 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:57:36,730 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:57:36,988 - ERROR - sql_db.py:29 - __init__ - {'status': 'failed', 'error': '("name \'declarative_base\' is not defined",)'}
+2023-06-23 11:57:36,988 - ERROR - sql_db.py:29 - __init__ - {'status': 'failed', 'error': '("name \'declarative_base\' is not defined",)'}
+2023-06-23 11:57:36,991 - ERROR - sql_db.py:33 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 11:57:36,991 - ERROR - sql_db.py:33 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 11:57:43,539 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:57:43,540 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:57:43,541 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:57:43,611 - ERROR - sql_db.py:29 - __init__ - {'status': 'failed', 'error': '("name \'declarative_base\' is not defined",)'}
+2023-06-23 11:57:43,611 - ERROR - sql_db.py:29 - __init__ - {'status': 'failed', 'error': '("name \'declarative_base\' is not defined",)'}
+2023-06-23 11:57:43,613 - ERROR - sql_db.py:33 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 11:57:43,613 - ERROR - sql_db.py:33 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 11:57:50,914 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:57:50,916 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:57:50,917 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:57:50,985 - ERROR - sql_db.py:32 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 11:57:50,985 - ERROR - sql_db.py:32 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 11:58:02,018 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:58:02,019 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:58:02,019 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:58:02,084 - ERROR - sql_db.py:32 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 11:58:02,084 - ERROR - sql_db.py:32 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 11:58:14,151 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 11:58:14,152 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 11:58:14,153 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 11:58:14,234 - ERROR - sql_db.py:32 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 11:58:14,234 - ERROR - sql_db.py:32 - __init__ - {'status': 'failed', 'error': '("name \'metadata\' is not defined",)'}
+2023-06-23 12:28:16,575 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 12:28:16,576 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 12:28:16,576 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 12:28:18,949 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 12:28:18,950 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 12:28:18,950 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 12:28:23,121 - ERROR - sql_db.py:50 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-06-23 12:28:23,121 - ERROR - sql_db.py:50 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-06-23 12:28:23,121 - ERROR - sql_db.py:50 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-06-23 12:28:23,121 - ERROR - sql_db.py:50 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-06-23 12:28:23,121 - ERROR - sql_db.py:50 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-06-23 12:28:35,277 - ERROR - sql_db.py:50 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-06-23 12:28:35,277 - ERROR - sql_db.py:50 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-06-23 12:28:35,277 - ERROR - sql_db.py:50 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-06-23 12:28:35,277 - ERROR - sql_db.py:50 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-06-23 12:28:35,277 - ERROR - sql_db.py:50 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-06-23 12:28:47,711 - ERROR - sql_db.py:50 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-06-23 12:28:47,711 - ERROR - sql_db.py:50 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-06-23 12:28:47,711 - ERROR - sql_db.py:50 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-06-23 12:28:47,711 - ERROR - sql_db.py:50 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-06-23 12:28:47,711 - ERROR - sql_db.py:50 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-06-23 12:29:57,938 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 12:29:57,939 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 12:29:57,940 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 12:30:12,479 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 12:30:12,480 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 12:30:12,481 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 12:30:33,892 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 12:30:33,893 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 12:30:33,893 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 12:30:38,230 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 12:30:38,230 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 12:30:38,231 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 12:30:42,276 - ERROR - sql_db.py:50 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-06-23 12:30:42,276 - ERROR - sql_db.py:50 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-06-23 12:30:42,276 - ERROR - sql_db.py:50 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-06-23 12:30:42,276 - ERROR - sql_db.py:50 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-06-23 12:30:42,276 - ERROR - sql_db.py:50 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-06-23 12:33:58,480 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 12:33:58,481 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 12:33:58,481 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 12:34:00,562 - ERROR - sql_db.py:69 - add_data_to_db - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'add\'",)'}
+2023-06-23 12:34:00,562 - ERROR - sql_db.py:69 - add_data_to_db - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'add\'",)'}
+2023-06-23 12:34:00,562 - ERROR - sql_db.py:69 - add_data_to_db - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'add\'",)'}
+2023-06-23 12:34:00,562 - ERROR - sql_db.py:69 - add_data_to_db - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'add\'",)'}
+2023-06-23 12:34:00,562 - ERROR - sql_db.py:69 - add_data_to_db - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'add\'",)'}
+2023-06-23 12:35:21,191 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 12:35:21,192 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 12:35:21,193 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 12:35:24,801 - ERROR - sql_db.py:69 - add_data_to_db - {'status': 'failed', 'error': '("\'dict\' object has no attribute \'id\'",)'}
+2023-06-23 12:35:24,801 - ERROR - sql_db.py:69 - add_data_to_db - {'status': 'failed', 'error': '("\'dict\' object has no attribute \'id\'",)'}
+2023-06-23 12:35:24,801 - ERROR - sql_db.py:69 - add_data_to_db - {'status': 'failed', 'error': '("\'dict\' object has no attribute \'id\'",)'}
+2023-06-23 12:35:24,801 - ERROR - sql_db.py:69 - add_data_to_db - {'status': 'failed', 'error': '("\'dict\' object has no attribute \'id\'",)'}
+2023-06-23 12:35:24,801 - ERROR - sql_db.py:69 - add_data_to_db - {'status': 'failed', 'error': '("\'dict\' object has no attribute \'id\'",)'}
+2023-06-23 12:36:08,268 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 12:36:08,269 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 12:36:08,270 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 12:36:12,458 - ERROR - sql_db.py:68 - add_data_to_db - {'status': 'failed', 'error': "('__init__() takes 1 positional argument but 2 were given',)"}
+2023-06-23 12:36:12,458 - ERROR - sql_db.py:68 - add_data_to_db - {'status': 'failed', 'error': "('__init__() takes 1 positional argument but 2 were given',)"}
+2023-06-23 12:36:12,458 - ERROR - sql_db.py:68 - add_data_to_db - {'status': 'failed', 'error': "('__init__() takes 1 positional argument but 2 were given',)"}
+2023-06-23 12:36:12,458 - ERROR - sql_db.py:68 - add_data_to_db - {'status': 'failed', 'error': "('__init__() takes 1 positional argument but 2 were given',)"}
+2023-06-23 12:36:12,458 - ERROR - sql_db.py:68 - add_data_to_db - {'status': 'failed', 'error': "('__init__() takes 1 positional argument but 2 were given',)"}
+2023-06-23 12:41:11,498 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-06-23 12:41:11,499 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-06-23 12:41:11,500 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-06-23 12:41:48,325 - ERROR - sql_db.py:68 - add_data_to_db - {'status': 'failed', 'error': "('__init__() takes 1 positional argument but 2 were given',)"}
+2023-06-23 12:41:48,325 - ERROR - sql_db.py:68 - add_data_to_db - {'status': 'failed', 'error': "('__init__() takes 1 positional argument but 2 were given',)"}
+2023-06-23 12:41:48,325 - ERROR - sql_db.py:68 - add_data_to_db - {'status': 'failed', 'error': "('__init__() takes 1 positional argument but 2 were given',)"}
+2023-06-23 12:41:48,325 - ERROR - sql_db.py:68 - add_data_to_db - {'status': 'failed', 'error': "('__init__() takes 1 positional argument but 2 were given',)"}
+2023-06-23 12:41:48,325 - ERROR - sql_db.py:68 - add_data_to_db - {'status': 'failed', 'error': "('__init__() takes 1 positional argument but 2 were given',)"}
+2023-06-23 16:54:29,055 - ERROR - sql_db.py:68 - add_data_to_db - {'status': 'failed', 'error': "('__init__() takes 1 positional argument but 2 were given',)"}
+2023-06-23 16:54:29,055 - ERROR - sql_db.py:68 - add_data_to_db - {'status': 'failed', 'error': "('__init__() takes 1 positional argument but 2 were given',)"}
+2023-06-23 16:54:29,055 - ERROR - sql_db.py:68 - add_data_to_db - {'status': 'failed', 'error': "('__init__() takes 1 positional argument but 2 were given',)"}
+2023-06-23 16:54:29,055 - ERROR - sql_db.py:68 - add_data_to_db - {'status': 'failed', 'error': "('__init__() takes 1 positional argument but 2 were given',)"}
+2023-06-23 16:54:29,055 - ERROR - sql_db.py:68 - add_data_to_db - {'status': 'failed', 'error': "('__init__() takes 1 positional argument but 2 were given',)"}
+2023-07-04 11:57:58,363 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-04 11:57:58,363 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-04 11:57:58,363 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-04 11:58:00,396 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-04 11:58:00,396 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-04 11:58:00,411 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-04 11:59:58,065 - INFO - mongo_db.py:29 - view_all_data - {'status': 'Success', 'Message': 'Fetched all data'}
+2023-07-04 11:59:58,065 - INFO - mongo_db.py:29 - view_all_data - {'status': 'Success', 'Message': 'Fetched all data'}
+2023-07-04 11:59:58,065 - INFO - mongo_db.py:29 - view_all_data - {'status': 'Success', 'Message': 'Fetched all data'}
+2023-07-04 11:59:58,065 - INFO - mongo_db.py:29 - view_all_data - {'status': 'Success', 'Message': 'Fetched all data'}
+2023-07-05 10:09:28,348 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 10:09:28,349 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 10:09:28,350 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 10:09:30,371 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 10:09:30,372 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 10:09:30,373 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 10:09:57,091 - INFO - mongo_db.py:29 - view_all_data - {'status': 'Success', 'Message': 'Fetched all data'}
+2023-07-05 10:09:57,091 - INFO - mongo_db.py:29 - view_all_data - {'status': 'Success', 'Message': 'Fetched all data'}
+2023-07-05 10:09:57,091 - INFO - mongo_db.py:29 - view_all_data - {'status': 'Success', 'Message': 'Fetched all data'}
+2023-07-05 10:09:57,091 - INFO - mongo_db.py:29 - view_all_data - {'status': 'Success', 'Message': 'Fetched all data'}
+2023-07-05 10:12:14,933 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 10:12:14,933 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 10:12:14,934 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 10:42:05,789 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 10:42:05,790 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 10:42:05,791 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 10:42:08,453 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 10:42:08,454 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 10:42:08,454 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 10:42:44,345 - ERROR - sql_db.py:24 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-07-05 10:42:44,345 - ERROR - sql_db.py:24 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-07-05 10:42:44,345 - ERROR - sql_db.py:24 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-07-05 10:42:44,345 - ERROR - sql_db.py:24 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-07-05 10:42:44,345 - ERROR - sql_db.py:24 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-07-05 10:43:00,964 - ERROR - sql_db.py:24 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-07-05 10:43:00,964 - ERROR - sql_db.py:24 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-07-05 10:43:00,964 - ERROR - sql_db.py:24 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-07-05 10:43:00,964 - ERROR - sql_db.py:24 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-07-05 10:43:00,964 - ERROR - sql_db.py:24 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-07-05 10:54:44,577 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 10:54:44,578 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 10:54:44,579 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 10:54:46,757 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 10:54:46,758 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 10:54:46,759 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 10:56:10,775 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-07-05 10:56:10,775 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-07-05 10:56:10,775 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-07-05 10:56:10,775 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-07-05 10:56:10,775 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'Depends\' object has no attribute \'query\'",)'}
+2023-07-05 10:58:51,870 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 10:58:51,871 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 10:58:51,871 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:02:09,211 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:02:09,212 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:02:09,213 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:02:11,100 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:02:11,100 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:02:11,101 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:05:17,481 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:05:17,482 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:05:17,482 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:05:21,001 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:05:21,002 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:05:21,003 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:06:05,021 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:06:05,021 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:06:05,022 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:06:06,916 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:06:06,916 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:06:06,917 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:06:15,161 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:06:15,162 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:06:15,162 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:06:17,051 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:06:17,052 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:06:17,052 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:06:32,056 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:06:32,056 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:06:32,056 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:06:32,056 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:06:32,056 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:06:32,069 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:06:32,069 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:06:32,069 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:06:32,069 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:06:32,069 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:08:20,584 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:08:20,584 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:08:20,584 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:08:20,584 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:08:20,584 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:08:20,594 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:08:20,594 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:08:20,594 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:08:20,594 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:08:20,594 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:10:13,063 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:10:13,064 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:10:13,065 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:10:27,122 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:10:27,122 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:10:27,122 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:10:27,122 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:10:27,122 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:10:27,134 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:10:27,134 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:10:27,134 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:10:27,134 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:10:27,134 - ERROR - sql_db.py:17 - find_by_id - {'status': 'failed', 'error': '("\'NoneType\' object is not iterable",)'}
+2023-07-05 11:10:39,890 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:10:39,890 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:10:39,891 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:10:50,082 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:10:50,083 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:10:50,084 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:10:54,813 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:10:54,813 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:10:54,814 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:10:57,526 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:10:57,527 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:10:57,528 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:12:03,696 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:12:03,698 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:12:03,699 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:12:05,744 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:12:05,744 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:12:05,745 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:12:11,854 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:12:11,855 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:12:11,856 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:12:16,237 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:12:16,238 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:12:16,239 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:12:23,269 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:12:23,270 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:12:23,271 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:12:29,208 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:12:29,210 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:12:29,210 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:12:37,393 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:12:37,393 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:12:37,394 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:12:40,356 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:12:40,356 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:12:40,357 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:12:49,201 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:12:49,201 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:12:49,202 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:12:51,461 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:12:51,462 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:12:51,462 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:12:54,670 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:12:54,670 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:12:54,671 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:13:00,157 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:13:00,158 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:13:00,159 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:13:04,816 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:13:04,817 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:13:04,818 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:13:07,853 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:13:07,854 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:13:07,854 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:13:09,825 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:13:09,826 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:13:09,827 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:13:25,716 - ERROR - sql_db.py:40 - add_data_to_db - {'status': 'failed', 'error': '("\'Student\' object has no attribute \'roll\'",)'}
+2023-07-05 11:13:25,716 - ERROR - sql_db.py:40 - add_data_to_db - {'status': 'failed', 'error': '("\'Student\' object has no attribute \'roll\'",)'}
+2023-07-05 11:13:25,716 - ERROR - sql_db.py:40 - add_data_to_db - {'status': 'failed', 'error': '("\'Student\' object has no attribute \'roll\'",)'}
+2023-07-05 11:13:25,716 - ERROR - sql_db.py:40 - add_data_to_db - {'status': 'failed', 'error': '("\'Student\' object has no attribute \'roll\'",)'}
+2023-07-05 11:13:25,716 - ERROR - sql_db.py:40 - add_data_to_db - {'status': 'failed', 'error': '("\'Student\' object has no attribute \'roll\'",)'}
+2023-07-05 11:14:29,745 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:14:29,746 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:14:29,747 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:14:40,050 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:14:40,051 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:14:40,052 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:15:20,968 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:15:20,969 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:15:20,970 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:16:03,556 - ERROR - sql_db.py:21 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:16:03,556 - ERROR - sql_db.py:21 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:16:03,556 - ERROR - sql_db.py:21 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:16:03,556 - ERROR - sql_db.py:21 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:16:03,556 - ERROR - sql_db.py:21 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:16:03,577 - ERROR - sql_db.py:21 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.InFailedSqlTransaction) current transaction is aborted, commands ignored until end of transaction block\\n',)"}
+2023-07-05 11:16:03,577 - ERROR - sql_db.py:21 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.InFailedSqlTransaction) current transaction is aborted, commands ignored until end of transaction block\\n',)"}
+2023-07-05 11:16:03,577 - ERROR - sql_db.py:21 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.InFailedSqlTransaction) current transaction is aborted, commands ignored until end of transaction block\\n',)"}
+2023-07-05 11:16:03,577 - ERROR - sql_db.py:21 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.InFailedSqlTransaction) current transaction is aborted, commands ignored until end of transaction block\\n',)"}
+2023-07-05 11:16:03,577 - ERROR - sql_db.py:21 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.InFailedSqlTransaction) current transaction is aborted, commands ignored until end of transaction block\\n',)"}
+2023-07-05 11:18:38,865 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:18:38,867 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:18:38,868 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:18:43,029 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:18:43,030 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:18:43,030 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:19:13,073 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:19:13,073 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:19:13,074 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:19:17,209 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:19:17,210 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:19:17,211 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:19:34,277 - ERROR - sql_db.py:16 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:19:34,277 - ERROR - sql_db.py:16 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:19:34,277 - ERROR - sql_db.py:16 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:19:34,277 - ERROR - sql_db.py:16 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:19:34,277 - ERROR - sql_db.py:16 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:19:34,292 - ERROR - sql_db.py:16 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.InFailedSqlTransaction) current transaction is aborted, commands ignored until end of transaction block\\n',)"}
+2023-07-05 11:19:34,292 - ERROR - sql_db.py:16 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.InFailedSqlTransaction) current transaction is aborted, commands ignored until end of transaction block\\n',)"}
+2023-07-05 11:19:34,292 - ERROR - sql_db.py:16 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.InFailedSqlTransaction) current transaction is aborted, commands ignored until end of transaction block\\n',)"}
+2023-07-05 11:19:34,292 - ERROR - sql_db.py:16 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.InFailedSqlTransaction) current transaction is aborted, commands ignored until end of transaction block\\n',)"}
+2023-07-05 11:19:34,292 - ERROR - sql_db.py:16 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.InFailedSqlTransaction) current transaction is aborted, commands ignored until end of transaction block\\n',)"}
+2023-07-05 11:21:38,639 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:21:38,639 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:21:38,640 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:22:41,427 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:22:41,428 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:22:41,429 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:22:43,230 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:22:43,230 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:22:43,231 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:22:59,971 - ERROR - sql_db.py:16 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:22:59,971 - ERROR - sql_db.py:16 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:22:59,971 - ERROR - sql_db.py:16 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:22:59,971 - ERROR - sql_db.py:16 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:22:59,971 - ERROR - sql_db.py:16 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:22:59,987 - ERROR - sql_db.py:16 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.InFailedSqlTransaction) current transaction is aborted, commands ignored until end of transaction block\\n',)"}
+2023-07-05 11:22:59,987 - ERROR - sql_db.py:16 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.InFailedSqlTransaction) current transaction is aborted, commands ignored until end of transaction block\\n',)"}
+2023-07-05 11:22:59,987 - ERROR - sql_db.py:16 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.InFailedSqlTransaction) current transaction is aborted, commands ignored until end of transaction block\\n',)"}
+2023-07-05 11:22:59,987 - ERROR - sql_db.py:16 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.InFailedSqlTransaction) current transaction is aborted, commands ignored until end of transaction block\\n',)"}
+2023-07-05 11:22:59,987 - ERROR - sql_db.py:16 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.InFailedSqlTransaction) current transaction is aborted, commands ignored until end of transaction block\\n',)"}
+2023-07-05 11:23:57,742 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:23:57,743 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:23:57,745 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:24:08,792 - ERROR - sql_db.py:16 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:24:08,792 - ERROR - sql_db.py:16 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:24:08,792 - ERROR - sql_db.py:16 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:24:08,792 - ERROR - sql_db.py:16 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:24:08,792 - ERROR - sql_db.py:16 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:24:53,011 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:24:53,012 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:24:53,012 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:25:00,071 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:25:00,072 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:25:00,073 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:26:04,878 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:26:04,879 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:26:04,880 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:26:12,761 - ERROR - sql_db.py:20 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:26:12,761 - ERROR - sql_db.py:20 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:26:12,761 - ERROR - sql_db.py:20 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:26:12,761 - ERROR - sql_db.py:20 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:26:12,761 - ERROR - sql_db.py:20 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:26:38,874 - ERROR - sql_db.py:20 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:26:38,874 - ERROR - sql_db.py:20 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:26:38,874 - ERROR - sql_db.py:20 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:26:38,874 - ERROR - sql_db.py:20 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:26:38,874 - ERROR - sql_db.py:20 - find_by_id - {'status': 'failed', 'error': "('(psycopg2.errors.UndefinedColumn) column rahul_new_student3.age does not exist\\nLINE 1: ...hul_new_student3.name AS rahul_new_student3_name, rahul_new_...\\n                                                             ^\\n',)"}
+2023-07-05 11:28:38,603 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:28:38,604 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:28:38,605 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:28:40,576 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:28:40,577 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:28:40,578 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:42:09,598 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:42:09,598 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:42:09,599 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:42:11,924 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:42:11,925 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:42:11,926 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:42:15,953 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:42:15,954 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:42:15,955 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:48:24,846 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:48:24,847 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:48:24,848 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:48:42,955 - ERROR - sql_db.py:34 - add_data_to_db - {'status': 'failed', 'error': "('__init__() takes 1 positional argument but 2 were given',)"}
+2023-07-05 11:48:42,955 - ERROR - sql_db.py:34 - add_data_to_db - {'status': 'failed', 'error': "('__init__() takes 1 positional argument but 2 were given',)"}
+2023-07-05 11:48:42,955 - ERROR - sql_db.py:34 - add_data_to_db - {'status': 'failed', 'error': "('__init__() takes 1 positional argument but 2 were given',)"}
+2023-07-05 11:48:42,955 - ERROR - sql_db.py:34 - add_data_to_db - {'status': 'failed', 'error': "('__init__() takes 1 positional argument but 2 were given',)"}
+2023-07-05 11:48:42,955 - ERROR - sql_db.py:34 - add_data_to_db - {'status': 'failed', 'error': "('__init__() takes 1 positional argument but 2 were given',)"}
+2023-07-05 11:49:06,496 - ERROR - sql_db.py:34 - add_data_to_db - {'status': 'failed', 'error': "('__init__() takes 1 positional argument but 2 were given',)"}
+2023-07-05 11:49:06,496 - ERROR - sql_db.py:34 - add_data_to_db - {'status': 'failed', 'error': "('__init__() takes 1 positional argument but 2 were given',)"}
+2023-07-05 11:49:06,496 - ERROR - sql_db.py:34 - add_data_to_db - {'status': 'failed', 'error': "('__init__() takes 1 positional argument but 2 were given',)"}
+2023-07-05 11:49:06,496 - ERROR - sql_db.py:34 - add_data_to_db - {'status': 'failed', 'error': "('__init__() takes 1 positional argument but 2 were given',)"}
+2023-07-05 11:49:06,496 - ERROR - sql_db.py:34 - add_data_to_db - {'status': 'failed', 'error': "('__init__() takes 1 positional argument but 2 were given',)"}
+2023-07-05 11:49:15,124 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:49:15,125 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:49:15,126 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:54:35,789 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:54:35,789 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:54:35,791 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:54:43,475 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:54:43,476 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:54:43,477 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:55:19,929 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:55:19,931 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:55:19,932 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:55:24,572 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:55:24,573 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:55:24,575 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:56:00,344 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:56:00,345 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:56:00,346 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 11:57:36,055 - ERROR - sql_db.py:36 - add_data_to_db - {'status': 'failed', 'error': '("Class \'scripts.constants.app_constants.Student\' is not mapped",)'}
+2023-07-05 11:57:36,055 - ERROR - sql_db.py:36 - add_data_to_db - {'status': 'failed', 'error': '("Class \'scripts.constants.app_constants.Student\' is not mapped",)'}
+2023-07-05 11:57:36,055 - ERROR - sql_db.py:36 - add_data_to_db - {'status': 'failed', 'error': '("Class \'scripts.constants.app_constants.Student\' is not mapped",)'}
+2023-07-05 11:57:36,055 - ERROR - sql_db.py:36 - add_data_to_db - {'status': 'failed', 'error': '("Class \'scripts.constants.app_constants.Student\' is not mapped",)'}
+2023-07-05 11:57:36,055 - ERROR - sql_db.py:36 - add_data_to_db - {'status': 'failed', 'error': '("Class \'scripts.constants.app_constants.Student\' is not mapped",)'}
+2023-07-05 11:58:58,514 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 11:58:58,515 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 11:58:58,516 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 12:00:51,043 - ERROR - sql_db.py:36 - add_data_to_db - {'status': 'failed', 'error': '("Class \'scripts.constants.app_constants.Student\' is not mapped",)'}
+2023-07-05 12:00:51,043 - ERROR - sql_db.py:36 - add_data_to_db - {'status': 'failed', 'error': '("Class \'scripts.constants.app_constants.Student\' is not mapped",)'}
+2023-07-05 12:00:51,043 - ERROR - sql_db.py:36 - add_data_to_db - {'status': 'failed', 'error': '("Class \'scripts.constants.app_constants.Student\' is not mapped",)'}
+2023-07-05 12:00:51,043 - ERROR - sql_db.py:36 - add_data_to_db - {'status': 'failed', 'error': '("Class \'scripts.constants.app_constants.Student\' is not mapped",)'}
+2023-07-05 12:00:51,043 - ERROR - sql_db.py:36 - add_data_to_db - {'status': 'failed', 'error': '("Class \'scripts.constants.app_constants.Student\' is not mapped",)'}
+2023-07-05 12:01:37,474 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 12:01:37,475 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 12:01:37,476 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 12:54:26,201 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 12:54:26,202 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 12:54:26,203 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 12:54:29,473 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 12:54:29,474 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 12:54:29,475 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 12:54:35,305 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 12:54:35,305 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 12:54:35,306 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 12:55:14,963 - ERROR - student_info_handler.py:30 - add_new_student - {'status': 'failed', 'error': '("name \'data\' is not defined",)'}
+2023-07-05 12:55:14,963 - ERROR - student_info_handler.py:30 - add_new_student - {'status': 'failed', 'error': '("name \'data\' is not defined",)'}
+2023-07-05 12:55:14,963 - ERROR - student_info_handler.py:30 - add_new_student - {'status': 'failed', 'error': '("name \'data\' is not defined",)'}
+2023-07-05 12:55:14,963 - ERROR - student_info_handler.py:30 - add_new_student - {'status': 'failed', 'error': '("name \'data\' is not defined",)'}
+2023-07-05 12:55:14,963 - ERROR - student_info_handler.py:30 - add_new_student - {'status': 'failed', 'error': '("name \'data\' is not defined",)'}
+2023-07-05 12:55:55,068 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 12:55:55,068 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 12:55:55,069 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 12:56:05,306 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 12:56:05,307 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 12:56:05,309 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 12:56:07,239 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 12:56:07,240 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 12:56:07,240 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 12:56:23,536 - ERROR - sql_db.py:36 - add_data_to_db - {'status': 'failed', 'error': '("Class \'scripts.constants.app_constants.Student\' is not mapped",)'}
+2023-07-05 12:56:23,536 - ERROR - sql_db.py:36 - add_data_to_db - {'status': 'failed', 'error': '("Class \'scripts.constants.app_constants.Student\' is not mapped",)'}
+2023-07-05 12:56:23,536 - ERROR - sql_db.py:36 - add_data_to_db - {'status': 'failed', 'error': '("Class \'scripts.constants.app_constants.Student\' is not mapped",)'}
+2023-07-05 12:56:23,536 - ERROR - sql_db.py:36 - add_data_to_db - {'status': 'failed', 'error': '("Class \'scripts.constants.app_constants.Student\' is not mapped",)'}
+2023-07-05 12:56:23,536 - ERROR - sql_db.py:36 - add_data_to_db - {'status': 'failed', 'error': '("Class \'scripts.constants.app_constants.Student\' is not mapped",)'}
+2023-07-05 12:57:09,496 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 12:57:09,497 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 12:57:09,498 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 12:57:13,066 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 12:57:13,067 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 12:57:13,068 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 12:57:22,188 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 12:57:22,188 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 12:57:22,189 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 12:57:26,296 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 12:57:26,296 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 12:57:26,299 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 12:58:42,398 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 12:58:42,398 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 12:58:42,399 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 13:00:34,699 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 13:00:34,700 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 13:00:34,701 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 13:00:43,067 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 13:00:43,067 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 13:00:43,068 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 13:00:59,782 - ERROR - sql_db.py:36 - add_data_to_db - {'status': 'failed', 'error': '("Class \'scripts.constants.app_constants.Student\' is not mapped",)'}
+2023-07-05 13:00:59,782 - ERROR - sql_db.py:36 - add_data_to_db - {'status': 'failed', 'error': '("Class \'scripts.constants.app_constants.Student\' is not mapped",)'}
+2023-07-05 13:00:59,782 - ERROR - sql_db.py:36 - add_data_to_db - {'status': 'failed', 'error': '("Class \'scripts.constants.app_constants.Student\' is not mapped",)'}
+2023-07-05 13:00:59,782 - ERROR - sql_db.py:36 - add_data_to_db - {'status': 'failed', 'error': '("Class \'scripts.constants.app_constants.Student\' is not mapped",)'}
+2023-07-05 13:00:59,782 - ERROR - sql_db.py:36 - add_data_to_db - {'status': 'failed', 'error': '("Class \'scripts.constants.app_constants.Student\' is not mapped",)'}
+2023-07-05 13:01:29,401 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 13:01:29,402 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 13:01:29,403 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 13:01:35,147 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 13:01:35,148 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 13:01:35,149 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 13:01:43,704 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 13:01:43,705 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 13:01:43,706 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 13:01:53,893 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 13:01:53,894 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 13:01:53,895 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 13:01:57,657 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 13:01:57,658 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 13:01:57,659 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 13:02:02,293 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 13:02:02,293 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 13:02:02,294 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 13:02:19,456 - ERROR - sql_db.py:38 - add_data_to_db - {'status': 'failed', 'error': '("Class \'scripts.constants.app_constants.Student\' is not mapped",)'}
+2023-07-05 13:02:19,456 - ERROR - sql_db.py:38 - add_data_to_db - {'status': 'failed', 'error': '("Class \'scripts.constants.app_constants.Student\' is not mapped",)'}
+2023-07-05 13:02:19,456 - ERROR - sql_db.py:38 - add_data_to_db - {'status': 'failed', 'error': '("Class \'scripts.constants.app_constants.Student\' is not mapped",)'}
+2023-07-05 13:02:19,456 - ERROR - sql_db.py:38 - add_data_to_db - {'status': 'failed', 'error': '("Class \'scripts.constants.app_constants.Student\' is not mapped",)'}
+2023-07-05 13:02:19,456 - ERROR - sql_db.py:38 - add_data_to_db - {'status': 'failed', 'error': '("Class \'scripts.constants.app_constants.Student\' is not mapped",)'}
+2023-07-05 17:01:26,428 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 17:01:26,428 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 17:01:26,429 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-05 17:01:28,593 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-05 17:01:28,593 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-05 17:01:28,594 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-06 16:23:34,973 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-06 16:23:34,975 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-06 16:23:34,975 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-06 16:23:37,962 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-06 16:23:37,963 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-06 16:23:37,965 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-07 17:38:48,292 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-07 17:38:48,293 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-07 17:38:48,294 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-07 17:38:51,317 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-07 17:38:51,317 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-07 17:38:51,318 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-07 18:12:00,460 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-07 18:12:00,461 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-07 18:12:00,462 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
+2023-07-07 18:12:06,670 - INFO - mongo_db.py:12 - __init__ - URI connected
+2023-07-07 18:12:06,671 - INFO - mongo_db.py:17 - __init__ - Connected to DB
+2023-07-07 18:12:06,672 - INFO - mongo_db.py:22 - __init__ - Connected to the collection
